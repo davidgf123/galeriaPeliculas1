@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de peliculas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="search container">
+    <div class="search-txt">
+        <h2>Galería de Películas <img src="img/mo.png" alt="" srcset="" class="mo"></h2> 
+    </div>
+    <cite>Creado por David Guerrero</cite>
+</div>
+<div class="movies container">
+    <h2>Mira en <span>Streaming</span> Películas con <span>puntaje mayor o igual al 80%</span> en <img src="img/rt.png" alt="" srcset="" class="rt"></h2> 
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img9.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img10.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img11.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/img12.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container icon">
+    <p><i class="fa-regular fa-thumbs-up "></i> Busca la película o serie y mira su puntuación en base de IMDB <i class="fa-regular fa-thumbs-down"></i></p>
+    
+</div>
+
+<section class="movie container2">
+    <img src="img/imdb.png" alt="" srcset="" class="imdb">
+    <div class="search-container">
+        <input type="text" placeholder="Nombre de la pelicula o serie..." id="movie-name" value="Wednesday"/>
+        <button id="search-btn">
+            Buscar
+        </button>
+    </div>
+    <div id="result"></div>
+    <div class="footer">
+        <div><p>Este trabajo es con el único proposito educativo <i class="fa-regular fa-face-laugh-beam"></i></p></div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="key.js"></script>
+<script src="script2.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
